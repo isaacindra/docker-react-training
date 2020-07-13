@@ -12,7 +12,7 @@ function App() {
         </p>
         <p> 
 
-        Estamos en Delivery - Master(1)
+        Estamos en Development
         </p>
         <a
           className="App-link"
