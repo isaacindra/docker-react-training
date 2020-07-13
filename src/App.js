@@ -13,7 +13,7 @@ function App() {
         <p> 
         Estamos en Development
 
-        Development
+        Ahora esta es la nueva versión del master (1)
 
         Yeah!! :3
         </p>
