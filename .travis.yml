@@ -1,0 +1,11 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -f Dockerfile.dev -t reactdocker/production:1.0 .
+
+script:
+  - docker run -e CI=true reactdocker/production:1.0 npm run test -- --coverage
+
+language: generic 
